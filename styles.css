@@ -1,0 +1,4 @@
+/* ----- Defaults ----- */
+html, body {
+  scroll-behavior: smooth;
+}
