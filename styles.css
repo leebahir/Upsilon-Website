@@ -3,15 +3,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.redgreen {
-  color: green;
-  background-color: red;
-}
-
-.indented{
-  padding-left: 100px;
-}
-
-#footer{
-  background-color: yellow;
+.hover-1 a:hover{
+  color:#ffddca;
 }
