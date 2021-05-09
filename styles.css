@@ -47,10 +47,6 @@ html, body {
   margin: auto
 }
 
-
-
-
-
 .upsilon_photo {
   padding-top: 10px;
   padding-left: 350px;
@@ -59,5 +55,12 @@ html, body {
 .main_buttons button{
   display: block;
   padding: 10px;
+}
+
+.project_image {
+  display: grid;
+  grid-gap: 2.0rem;
+  padding-top: 10px;
+  padding-left: 100px;
 }
 
