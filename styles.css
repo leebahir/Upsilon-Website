@@ -73,3 +73,7 @@ html, body {
   left: 640px;
   top: -850px;
 }
+
+.margin_fix {
+  border-bottom: 0px;
+}
