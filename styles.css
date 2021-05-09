@@ -62,9 +62,14 @@ html, body {
 
 .project_image {
   display: grid;
-  grid-gap: 2.0rem;
+  grid-gap: 4.0rem;
   padding-top: 10px;
   padding-left: 100px;
 }
 
-
+.text_container {
+  width:600px;
+  position: relative;
+  left: 640px;
+  top: -850px;
+}
