@@ -49,3 +49,15 @@ html, body {
 
 
 
+
+
+.upsilon_photo {
+  padding-top: 10px;
+  padding-left: 350px;
+}
+
+.main_buttons button{
+  display: block;
+  padding: 10px;
+}
+
