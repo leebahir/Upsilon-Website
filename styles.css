@@ -55,6 +55,7 @@ html, body {
 .main_buttons button{
   display: block;
   padding: 10px;
+  
 }
 
 .project_image {
@@ -63,4 +64,5 @@ html, body {
   padding-top: 10px;
   padding-left: 100px;
 }
+
 
