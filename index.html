@@ -17,8 +17,9 @@
 </head>
 
 <body>
+
   <!-- NavBar -->
-  <div class="container-fluid bcontent">
+  <div class="container-fluid bcontent" style="padding-left:0px;padding-right:0px">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -28,17 +29,17 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link disabled" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
+              <a class="nav-link active" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
           </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" aria-current="page" href="biographies.html">Biographies</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="memories.html">Memories</a>
             </li>
             </li>
@@ -48,29 +49,39 @@
     </nav>
   </div>
   <!-- NavBar End -->
+
+  <!--Title Start -->
+  <h1 style="padding-top:40px"><center>Meet the</center></h1>
+  <h1 style="padding-bottom:20px; font-size:50px"><center>Upsilon Class</center></h1>
+  <!--Title End -->
+
+  <!-- Content Start -->
+  <div class="home_content">
+
+    <!--Main Photo Start-->
+    <div class="upsilon_photo">
+      <img src="https://via.placeholder.com/350x350" alt="Upsilon Class Photo">
+    </div>
+    <!--Main Photo End-->
+
+    <!--Buttons Start-->
+    <div class="main_buttons">
+      <a href="biographies.html"><button type="button" style="margin-left:50px;width:250px;height:70px" class="btn btn-secondary btn-lg">View Biographies</button></a>
+      <a href="projects.html"><button type="button" style="margin-left:50px;width:250px;height:70px" class="btn btn-secondary btn-lg">View Projects</button></a>
+      <a href="memories.html"><button type="button" style="margin-left:50px;width:250px;height:70px" class="btn btn-secondary btn-lg">View Memories</button></a>
+    </div>
+    <!--Buttons End-->
+    
+  </div>
+  <!-- Content End -->
+  
+  <!-- Footer Begin -->
+  <div class="jumbotron" id="footer">
+    <center>Made With Love by the Upsilon Class</center>
+  </div>
+  <!-- Footer End -->
+
 </body> 
-
-<!--Title Start -->
-<h1 style="padding-top:20px"><center>Meet the</center></h1>
-<h1 style="padding-bottom:20px; font-size:50px"><center>Upsilon Class</center></h1>
-<!--Title End -->
-
-
-
-<!--Main Photo Start-->
-<div class="upsilon_photo">
-  <img src="https://via.placeholder.com/350x350" alt="Upsilon Class Photo">
-</div>
-<!--Main Photo End-->
-
-<!--Buttons Start-->
-<div class="main_buttons">
-  <a href="biographies.html"><button type="button" style="margin:20px;" class="btn btn-secondary btn-lg">View Biographies</button></a>
-  <a href="projects.html"><button type="button" style="margin:20px" class="btn btn-secondary btn-lg">View Projects</button></a>
-  <a href="memories.html"><button type="button" style="margin:20px" class="btn btn-secondary btn-lg">View Memories</button></a>
-</div>
-<!--Buttons End-->
-
 
 <!-- scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
