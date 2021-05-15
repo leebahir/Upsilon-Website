@@ -1,7 +1,24 @@
+html{
+  height: 100%;
+  background-image: linear-gradient(to bottom, white,white,#7F9937);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0,0,0,0)!important;
+}
+
 /* ==== NAVBAR ==== */
 
 .nav-item {
   font-size: 20px;
+}
+
+.navbar{
+  background-color: #7F9937;
 }
 
 /* ==== FOOTER ==== */
@@ -9,8 +26,11 @@
 #footer {
   bottom: 0px;
   padding: 20px;
+  margin-top: 60px;
+  background-color: #5F8005;
+  color: white;
   margin-bottom: 0px;
-  margin-top: 50px;
+  /* margin-top: auto!important; */
 }
 
 /* ==== BIOGRAPHIES ==== */
@@ -196,11 +216,20 @@
   height: 350px;
 }
 
+.homepage-button{
+  margin-left:50px;
+  width:250px;
+  height:70px;
+  background-color: #ebc40098!important;
+  border: none!important;
+}
+
 .main_buttons {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 /* .upsilon_photo {
   padding-top: 10px;
   padding-left: 350px;
