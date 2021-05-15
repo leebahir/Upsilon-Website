@@ -57,45 +57,52 @@
   <div style="padding-left: 80px;padding-right:80px">
     <!-- Image Grid -->
     <div class="gallery-grid">
+      <!-- Danson Ma -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Danson Ma" height="250" width="250">
+        <img id="danson" onclick="myFunc('dansonModal', 'danson', 'img03', 'assets/Danson.jpg')" class="gallery-img" src="assets/Danson.JPG" height="250" width="250" style="object-position: 25% 0;">
         <figcaption>Danson Ma</figcaption>
+        <!-- The Modal -->
+        <div id="dansonModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('dansonModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img03">
+          <p>Hi, I’m Danson Ma and I am a second-year mechanical engineering major. I was born in Zeeland, Michigan, and moved to Torrance, California, in 5th grade. I have always been interested in creating machines, especially cars, so I am currently majoring in Mechanical Engineering. My goal is to build my own drift car to take to the track with my friends.</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Danson Ma End -->
       
       <!-- Ian Satoda -->
       <figure class="gallery-frame">
-        <img id="imgID" class="gallery-img" src="assets/ian.jpg" height="250" width="250" style="object-position: 25% 0;">
+        <img id="ian" onclick="myFunc('ianModal', 'ian', 'img02', 'assets/ian.jpg')" class="gallery-img" src="assets/ian.jpg" height="250" width="250" style="object-position: 25% 1;">
         <figcaption>Ian Satoda</figcaption>
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div id="ianModal" class="modal">
         <!-- The Close Button -->
-          <span class="close">&times;</span>
+          <span onclick="close('ianModal')" class="close">&times;</span>
           <!-- Modal Content (The Image) -->
-          <img class="modal-content" id="img01">
+          <img class="modal-content" id="img02">
           <p>Hello, I’m Ian Satoda and I am currently a second-year mechanical engineering major! I was born and raised in San Diego and enjoy going to the beach. I also enjoy rock climbing, playing basketball, and getting boba. I love watching Formula 1 races and listening to a lot of music. I mostly listen to hip hop. Right now, my favorite foods are pho and in-n-out.</p>
         <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
         </div>
       </figure>
-      <script src="script.js"></script>
       <!-- Ian Satoda End -->
       
       <!-- John Walling -->
       <figure class="gallery-frame">
-        <img id="imgID" class="gallery-img" src="assets/john_walling.jpg" height="250" width="250" style="object-position: -25% 0;">
+        <img id="john" onclick="myFunc('johnModal', 'john', 'img01', 'assets/john_walling.jpg')"class="gallery-img" src="assets/john_walling.jpg" height="250" width="250" style="object-position: -25% 0;">
         <figcaption>John Walling</figcaption>
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div id="johnModal" class="modal">
         <!-- The Close Button -->
-          <span class="close">&times;</span>
+          <span onclick="close('johnModal')" class="close">&times;</span>
           <!-- Modal Content (The Image) -->
           <img class="modal-content" id="img01">
           <p>Hello! My name is John Walling and I am currently a third-year computer science major at the University of California, Irvine. I was originally a marine biology major, but decided to switch to computer science because I am not good at biology and technology had always interested me as well. So, in the future, I hope to combine my love for marine biology with computer science by working for a company that promotes ocean conservation. A fun fact about me is that I have never eaten at Panda Express and I don't plan to anytime soon. Some of my favorite hobbies include skateboarding, playing League of Legends, and doing yoga. Also on a side note, this is one of the first websites I've worked on so have mercy <3.</p>
         <!-- Modal Caption (Image Text) -->
-        <div id="caption"></div>
         </div>
       </figure>
-      <script src="script.js"></script>
       <!-- John Walling End -->
 
       <figure class="gallery-frame">
@@ -110,10 +117,23 @@
         <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Lee Bahir" height="250" width="250">
         <figcaption>Lee Bahir</figcaption>
       </figure>
+      
+      <!-- Long Lau -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Long Lau" height="250" width="250">
+        <img id="long" onclick="myFunc('longModal', 'long', 'img04', 'assets/Long.jpeg')" class="gallery-img" src="assets/Long.jpeg" height="250" width="250" style="object-position: 25% 100%;">
         <figcaption>Long Lau</figcaption>
+        <!-- The Modal -->
+        <div id="longModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('longModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img04">
+          <p>Hewwo, I’m Long! I am half Vietnamese and half Chinese, and I am from Garden Grove, CA. I love playing games, hiking, biking, playing any water sports, and watching anime. I also love listening to music, especially EDM.</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Long Lau End -->
+      
       <figure class="gallery-frame">
         <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Natalie Poist" height="250" width="250">
         <figcaption>Natalie Poist</figcaption>
@@ -122,18 +142,55 @@
         <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Nicole Ostrowski" height="250" width="250">
         <figcaption>Nicole Ostrowski</figcaption>
       </figure>
+      
+      <!-- Riya Goja -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Riya Goja" height="250" width="250">
+        <img id="riya" onclick="myFunc('riyaModal', 'riya', 'img05', 'assets/Riya.jpeg')" class="gallery-img" src="assets/Riya.jpeg" height="250" width="250" style="object-position: 25% 100%;">
         <figcaption>Riya Goja</figcaption>
+        <!-- The Modal -->
+        <div id="riyaModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('riyaModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img05">
+          <p>Hi, I’m Riya! I was born and raised in New Jersey, and decided to venture out to the west coast for college. I love making art, dancing, singing, baking, and hanging outdoors with friends! I also have a dog named Mowgli :)</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Riya Goja End -->
+      
+      <!-- Sharon Le -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Sharon Le" height="250" width="250">
+        <img id="sharon" onclick="myFunc('sharonModal', 'sharon', 'img06', 'assets/Sharon.jpg')" class="gallery-img" src="assets/Sharon.jpg" height="250" width="250" style="object-position: 25% 200;">
         <figcaption>Sharon Le</figcaption>
+        <!-- The Modal -->
+        <div id="sharonModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('sharonModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img06">
+          <p>Hellooo! My name is Sharon Le and I currently reside in Ontario, California. I am half Indonesian and half Vietnamese and can only speak english. Some of my favorite hobbies include sleeping, watching reality TV and anime, doing nail art, playing around with makeup, and playing tennis. I love the color dark red and dogs.</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Sharon Le End -->
+      
+      <!-- Shlok Bansal -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Shlok Bansal" height="250" width="250">
+        <img id="shlok" onclick="myFunc('shlokModal', 'shlok', 'img07', 'assets/Shlok.JPG')" class="gallery-img" src="assets/Shlok.JPG" height="250" width="250" style="object-position: 25% 200;">
         <figcaption>Shlok Bansal</figcaption>
+        <!-- The Modal -->
+        <div id="shlokModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('shlokModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img07">
+          <p>Hey! My name is Shlok. I was born and raised in Livermore,CA and when I'm not golfing you can find me listening to different types of music. Some of my favorite artists are J Cole, Mac Miller, and the Weekend but I'm always open to new suggestions. I also love going to the beach and being outdoors.</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Shlok Bansal End -->
+      
       <figure class="gallery-frame">
         <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Zilong Zhao" height="250" width="250">
         <figcaption>Zilong Zhao</figcaption>
@@ -151,6 +208,7 @@
 </body> 
 
 <!-- scripts -->
+<script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
