@@ -74,12 +74,39 @@ body{
   opacity: 0.7;
 }
 
-#imgID {
+#john {
   cursor: pointer;
   transition: 0.3s;
 }
 
-#imgID:hover {
+#john:hover {
+  opacity: 0.7;
+}
+
+#danson {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#danson:hover {
+  opacity: 0.7;
+}
+
+#john {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#john:hover {
+  opacity: 0.7;
+}
+
+#ian {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ian:hover {
   opacity: 0.7;
 }
 
@@ -100,19 +127,20 @@ body{
 
 .modal p {
   width: 450px;
-  left: 1020px;
-  position: relative;
-  top: -550px;
+  left: 940px;
+  position: absolute;
+  top: 225px;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
 
 /* Modal Content (Image) */
 .modal-content {
-  left: 525px;
+  left: 440px;
   display: block;
   width: 80%;
   max-width: 450px;
+  top: 50px;
 }
 
 #caption {
