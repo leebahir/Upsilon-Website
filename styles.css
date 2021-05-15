@@ -1,4 +1,4 @@
-html{
+/* html{
   height: 100%;
   background-image: linear-gradient(to bottom, white,white,#7F9937);
   background-repeat: no-repeat;
@@ -9,6 +9,28 @@ body{
   display: flex;
   flex-direction: column;
   background-color: rgb(0,0,0,0)!important;
+} */
+
+#page{
+  position: relative;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, white,white,#7F9937);
+}
+#content-wrap{
+  padding-bottom: 6rem;
+}
+#footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 3rem;
+
+  padding: 15px 10px 10px 10px;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-top: 60px;
+  background-color: #5F8005;
+  color: white;
 }
 
 /* ==== NAVBAR ==== */
@@ -21,17 +43,37 @@ body{
   background-color: #7F9937;
 }
 
-/* ==== FOOTER ==== */
 
-#footer {
-  bottom: 0px;
-  padding: 20px;
-  margin-top: 60px;
-  background-color: #5F8005;
-  color: white;
-  margin-bottom: 0px;
-  /* margin-top: auto!important; */
+
+/* ==== HOMEPAGE ==== */
+
+.home_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 6rem;
 }
+
+.homepage-image{
+  width: 350px;
+  height: 350px;
+}
+
+.homepage-button{
+  margin-left:50px;
+  width:250px;
+  height:70px;
+  background-color: #ebc40098!important;
+  border: none!important;
+}
+
+.main_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
 
 /* ==== BIOGRAPHIES ==== */
 
@@ -194,6 +236,10 @@ body{
   }
 }
 
+
+
+
+
 /* ==== MEMORIES ==== */
 
 /* CAROUSEL */
@@ -203,57 +249,21 @@ body{
   margin: auto;
 }
 
-/* ==== HOMEPAGE ==== */
 
-.home_content {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
 
-.homepage-image{
-  width: 350px;
-  height: 350px;
-}
 
-.homepage-button{
-  margin-left:50px;
-  width:250px;
-  height:70px;
-  background-color: #ebc40098!important;
-  border: none!important;
-}
 
-.main_buttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 
-/* .upsilon_photo {
-  padding-top: 10px;
-  padding-left: 350px;
-}
 
-.main_buttons button{
-  display: block;
-  padding-left: 10px;
-  position: relative;
-  left: 730px;
-  top: -310px;
-} */
 
 /* ==== PROJECTS ==== */
 
-/* PROJECT IMAGE */
 .project_image {
   display: grid;
   grid-gap: 4rem;
   padding-top: 10px;
   padding-left: 100px;
 }
-
-/* PROJECT TEXT */
 .text_container {
   width: 600px;
   margin-left: 40px;
