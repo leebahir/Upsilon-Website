@@ -22,6 +22,7 @@ var long = document.getElementById("longModal");
 var riya = document.getElementById("riyaModal");
 var sharon = document.getElementById("sharonModal");
 var shlok = document.getElementById("shlokModal");
+var zilong = document.getElementById("zilongModal");
 var span0 = document.getElementsByClassName("close")[0];
 var span1 = document.getElementsByClassName("close")[1];
 var span2 = document.getElementsByClassName("close")[2];
@@ -29,6 +30,7 @@ var span3 = document.getElementsByClassName("close")[3];
 var span4 = document.getElementsByClassName("close")[4];
 var span5 = document.getElementsByClassName("close")[5];
 var span6 = document.getElementsByClassName("close")[6];
+var span7 = document.getElementsByClassName("close")[7];
 
 span0.onclick = function () {
   danson.style.display = "none";
@@ -56,6 +58,10 @@ span5.onclick = function () {
 
 span6.onclick = function () {
   shlok.style.display = "none";
+};
+
+span7.onclick = function () {
+  zilong.style.display = "none";
 };
 
 function close(myModal) {
