@@ -17,7 +17,6 @@
 </head>
 
 <body>
-    
     <!-- NavBar -->
     <div class="container-fluid bcontent" style="padding-left:0px;padding-right:0px">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -109,14 +108,38 @@
         <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Katherine Thai" height="250" width="250">
         <figcaption>Katherine Thai</figcaption>
       </figure>
+      
+      <!-- Kelly Huang -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Kelly Huang" height="250" width="250">
+        <img id="kelly" onclick="myFunc('kellyModal', 'kelly', 'img10', 'assets/kelly.HEIC')" class="gallery-img" src="assets/kelly.HEIC" height="250" width="250" style="object-position: 25% 200;">
         <figcaption>Kelly Huang</figcaption>
+        <!-- The Modal -->
+        <div id="kellyModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('kellyModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img10">
+          <p>Hey, I’m Kelly! I am Chinese and my hometown is Hacienda Heights, CA. I love plants, cats, and baking!</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Kelly Huang End -->
+      
+      <!-- Lee Bahir -->
       <figure class="gallery-frame">
-        <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Lee Bahir" height="250" width="250">
+        <img id="lee" onclick="myFunc('leeModal', 'lee', 'img09', 'assets/Lee.HEIC')" class="gallery-img" src="assets/Lee.HEIC" height="250" width="250" style="object-position: 25% 200;">
         <figcaption>Lee Bahir</figcaption>
+        <!-- The Modal -->
+        <div id="leeModal" class="modal">
+        <!-- The Close Button -->
+          <span onclick="close('leeModal')" class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img09">
+          <p>Hellooooo I’m Lee! I like painting, going on walks to see pretty sunsets, watching shows, and eating dessert. My favorite word is “marble”, my favorite colors are oreo brown and sunny orange, my favorite smell is halloween bags full of candy, my favorite sound is ice cubes being stirred in a glass, and my favorite youtube video is Travis Scott falling in autotune.</p>
+        <!-- Modal Caption (Image Text) -->
+        </div>
       </figure>
+      <!-- Lee Bahir End -->
       
       <!-- Long Lau -->
       <figure class="gallery-frame">

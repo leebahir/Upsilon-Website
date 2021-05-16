@@ -1,14 +1,14 @@
-html{
+html {
   height: 100%;
-  background-image: linear-gradient(to bottom, white,white,#7F9937);
+  background-image: linear-gradient(to bottom, white, white, #7f9937);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
-  background-color: rgb(0,0,0,0)!important;
+  background-color: rgb(0, 0, 0, 0) !important;
 }
 
 /* ==== NAVBAR ==== */
@@ -17,8 +17,8 @@ body{
   font-size: 20px;
 }
 
-.navbar{
-  background-color: #7F9937;
+.navbar {
+  background-color: #7f9937;
 }
 
 /* ==== FOOTER ==== */
@@ -27,7 +27,7 @@ body{
   bottom: 0px;
   padding: 20px;
   margin-top: 60px;
-  background-color: #5F8005;
+  background-color: #5f8005;
   color: white;
   margin-bottom: 0px;
   /* margin-top: auto!important; */
@@ -71,42 +71,6 @@ body{
 }
 
 .gallery-img:hover {
-  opacity: 0.7;
-}
-
-#john {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#john:hover {
-  opacity: 0.7;
-}
-
-#danson {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#danson:hover {
-  opacity: 0.7;
-}
-
-#john {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#john:hover {
-  opacity: 0.7;
-}
-
-#ian {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#ian:hover {
   opacity: 0.7;
 }
 
@@ -211,17 +175,17 @@ body{
   margin-top: 20px;
 }
 
-.homepage-image{
+.homepage-image {
   width: 350px;
   height: 350px;
 }
 
-.homepage-button{
-  margin-left:50px;
-  width:250px;
-  height:70px;
-  background-color: #ebc40098!important;
-  border: none!important;
+.homepage-button {
+  margin-left: 50px;
+  width: 250px;
+  height: 70px;
+  background-color: #ebc40098 !important;
+  border: none !important;
 }
 
 .main_buttons {
