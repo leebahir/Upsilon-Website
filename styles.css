@@ -64,6 +64,8 @@
 
 #biographies-content {
   padding-bottom: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 /* GALLERY */
@@ -202,14 +204,23 @@ figcaption {
 /* ==== MEMORIES ==== */
 
 #memories-content {
-  padding-bottom: 6rem;
+  padding-bottom: 10rem;
 }
 
 /* CAROUSEL */
 .carousel {
-  width: 1000px;
-  height: 600px;
   margin: auto;
+}
+.carousel-frame{
+  width: 80%;
+  margin: auto;
+  background-image: linear-gradient(to top, #ffe76d, white, white);
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px #2a3803;
+  padding: 20px;
+}
+.slide{
+  border-radius: 8px;
 }
 
 /* ==== PROJECTS ==== */
@@ -233,4 +244,34 @@ figcaption {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .home_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .homepage-image{
+    width: 250px;
+    height: 250px;
+  }
+  .homepage-button{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  #biographies-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #carousel-frame {
+    padding-top: 10rem;
+  }
+  .carousel-frame{
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to top, #ffe76d, white, white);
+    box-shadow: 5px 5px 15px #2a3803;
+    padding: 20px;
+  }
 }
