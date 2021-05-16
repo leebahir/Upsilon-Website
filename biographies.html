@@ -109,10 +109,21 @@
           </figure>
           <!-- John Walling End -->
 
+        <!-- Katherine Thai -->
         <figure class="gallery-frame">
-          <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Katherine Thai" height="250" width="250">
+          <img id="katherine" onclick="myFunc('katherineModal', 'katherine', 'img11', 'assets/Katherine.jpeg')" class="gallery-img" src="assets/Katherine.jpeg" height="250" width="250" style="object-position: 25% 200;">
           <figcaption>Katherine Thai</figcaption>
+          <!-- The Modal -->
+          <div id="katherineModal" class="modal">
+          <!-- The Close Button -->
+            <span onclick="close('katherineModal')" class="close">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img11">
+            <p>Hi! I’m Katherine! I was born in Mountain View, but I was raised in San Jose. I am Vietnamese and attended Vietnamese school for 7 years. I enjoy doing activities that will help me stay in touch with my inner child. I find myself daydreaming, rewatching childhood shows, and collecting stuffed animals.</p>
+          <!-- Modal Caption (Image Text) -->
+          </div>
         </figure>
+        <!-- Kelly Huang End -->
         
         <!-- Kelly Huang -->
         <figure class="gallery-frame">
@@ -162,14 +173,37 @@
         </figure>
         <!-- Long Lau End -->
         
-        <figure class="gallery-frame">
-          <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Natalie Poist" height="250" width="250">
-          <figcaption>Natalie Poist</figcaption>
-        </figure>
-        <figure class="gallery-frame">
-          <img class="gallery-img" src="assets/blank_profile.png" alt="Picture of Nicole Ostrowski" height="250" width="250">
-          <figcaption>Nicole Ostrowski</figcaption>
-        </figure>
+        <!-- Natalie Poist -->
+          <figure class="gallery-frame">
+            <img id="natalie" onclick="myFunc('natalieModal', 'natalie', 'img12', 'assets/natalie.jpg')"class="gallery-img" src="assets/natalie.jpg" height="250" width="250" style="object-position: -25% 0;">
+            <figcaption>Natalie Poist</figcaption>
+            <!-- The Modal -->
+            <div id="natalieModal" class="modal">
+            <!-- The Close Button -->
+              <span onclick="close('natalieModal')" class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img12">
+              <p>Hello! My name is Natalie Poist and I am a first-year biomedical engineering major.</p>
+            <!-- Modal Caption (Image Text) -->
+            </div>
+          </figure>
+          <!-- Natalie Poist End -->
+
+        <!-- Nicole Ostrowski -->
+          <figure class="gallery-frame">
+            <img id="nicole" onclick="myFunc('nicoleModal', 'nicole', 'img13', 'assets/nicole.jpg')"class="gallery-img" src="assets/nicole.jpg" height="250" width="250" style="object-position: -25% 0;">
+            <figcaption>Nicole Ostrowski</figcaption>
+            <!-- The Modal -->
+            <div id="nicoleModal" class="modal">
+            <!-- The Close Button -->
+              <span onclick="close('nicoleModal')" class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img13">
+              <p>Hello! My name is Nicole Ostrowski and I am a second-year mechanical engineering major.</p>
+            <!-- Modal Caption (Image Text) -->
+            </div>
+          </figure>
+          <!-- Nicole Ostrowski End -->
         
         <!-- Riya Goja -->
         <figure class="gallery-frame">
@@ -240,7 +274,7 @@
 
     <!-- Footer Begin -->
     <div class="jumbotron" id="footer">
-      <center>Made With <3 by the Upsilon Class</center>
+      <center>Made With Love by the Upsilon Class</center>
     </div>
     <!-- Footer End -->
 
