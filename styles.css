@@ -1,23 +1,7 @@
-/* html{
-  height: 100%;
-  background-image: linear-gradient(to bottom, white,white,#7F9937);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body{
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(0,0,0,0)!important;
-} */
-
 #page{
   position: relative;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, white,white,#7F9937);
-}
-#content-wrap{
-  padding-bottom: 6rem;
+  background-image: linear-gradient(to bottom, white,#7F9937);
 }
 #footer {
   position: absolute;
@@ -25,10 +9,9 @@ body{
   width: 100%;
   height: 3rem;
 
-  padding: 15px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-radius: 0;
   margin-bottom: 0;
-  margin-top: 60px;
   background-color: #5F8005;
   color: white;
 }
@@ -63,8 +46,15 @@ body{
   margin-left:50px;
   width:250px;
   height:70px;
-  background-color: #ebc40098!important;
+  background-color: #FEE14B!important;
   border: none!important;
+  color: #343a24;
+  font-weight: 500!important;
+  border-radius: 10px!important;
+}
+.homepage-button:hover{
+  box-shadow: 0px 0px 10px #344603;
+
 }
 
 .main_buttons {
@@ -73,9 +63,16 @@ body{
   justify-content: space-around;
 }
 
+.homepage-title{
+  color: #324401;
+}
 
 
 /* ==== BIOGRAPHIES ==== */
+
+#biographies-content{
+  padding-bottom: 6rem;
+}
 
 /* GALLERY */
 .gallery {
@@ -97,11 +94,20 @@ body{
 
 /* PICTURE FRAMES */
 .gallery-frame {
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1.2rem;
   text-align: center;
-  background-color: #333;
+  /* background-color: rgb(255, 243, 205); */
+  background-image: linear-gradient(to top, #ffe76d, white, white);
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px #2a3803;
   color: #d9d9d9;
+}
+
+figcaption{
+  color: #324401;
+  padding-top: 1rem;
+  font-weight: 500;
 }
 
 /* IMAGES */
@@ -110,45 +116,12 @@ body{
   height: 250px;
   object-fit: cover;
   transition: opacity 0.25s ease-in-out;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .gallery-img:hover {
-  opacity: 0.7;
-}
-
-#john {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#john:hover {
-  opacity: 0.7;
-}
-
-#danson {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#danson:hover {
-  opacity: 0.7;
-}
-
-#john {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#john:hover {
-  opacity: 0.7;
-}
-
-#ian {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#ian:hover {
   opacity: 0.7;
 }
 
@@ -242,6 +215,10 @@ body{
 
 /* ==== MEMORIES ==== */
 
+#memories-content{
+  padding-bottom: 6rem;
+}
+
 /* CAROUSEL */
 .carousel {
   width: 640px;
@@ -257,6 +234,10 @@ body{
 
 
 /* ==== PROJECTS ==== */
+
+#projects-content{
+  padding-bottom: 6rem;
+}
 
 .project_image {
   display: grid;
