@@ -119,7 +119,8 @@ figcaption {
 
 /* The Modal (background) */
 .modal {
-  display: none;
+  /* display: flex;
+  justify-content: center; */
   position: fixed;
   z-index: 1;
   padding-top: 180px;
@@ -134,7 +135,7 @@ figcaption {
 
 .modal p {
   width: 450px;
-  left: 940px;
+  left: 700px;
   position: absolute;
   top: 225px;
   animation-name: zoom;
@@ -143,7 +144,7 @@ figcaption {
 
 /* Modal Content (Image) */
 .modal-content {
-  left: 440px;
+  left: 200px;
   display: block;
   width: 80%;
   max-width: 450px;
@@ -271,6 +272,22 @@ figcaption {
     margin: auto;
     background-image: linear-gradient(to top, #ffe76d, white, white);
     box-shadow: 5px 5px 15px #2a3803;
-    padding: 20px;
+    padding: 10px;
+  }
+  .modal p {
+    width: 90%;
+    left: 20px;
+    position: absolute;
+    top: 550px;
+    padding-bottom: 50px;
+  }
+  .modal-content {
+    left: 20px;
+    display: block;
+    width: 90%;
+    max-width: 90%;
+  }
+  .modal {
+    padding-top: 20px;
   }
 }
