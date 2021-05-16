@@ -211,7 +211,7 @@ figcaption {
 .carousel {
   margin: auto;
 }
-.carousel-frame{
+.carousel-frame {
   width: 80%;
   margin: auto;
   background-image: linear-gradient(to top, #ffe76d, white, white);
@@ -219,7 +219,7 @@ figcaption {
   box-shadow: 5px 5px 15px #2a3803;
   padding: 20px;
 }
-.slide{
+.slide {
   border-radius: 8px;
 }
 
@@ -246,28 +246,27 @@ figcaption {
   margin-bottom: 40px;
 }
 
-
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .home_content {
     flex-direction: column;
     align-items: center;
   }
-  .homepage-image{
+  .homepage-image {
     width: 250px;
     height: 250px;
   }
-  .homepage-button{
+  .homepage-button {
     margin-left: 0px;
     margin-top: 30px;
   }
-  #biographies-content{
+  #biographies-content {
     padding-left: 2rem;
     padding-right: 2rem;
   }
   #carousel-frame {
     padding-top: 10rem;
   }
-  .carousel-frame{
+  .carousel-frame {
     width: 80%;
     margin: auto;
     background-image: linear-gradient(to top, #ffe76d, white, white);
